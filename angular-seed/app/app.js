@@ -20,7 +20,9 @@
 		// $scope.visible = false;
 		this.tab = 1;
 		this.setTab = function(newValue) {
+			console.log('Old value was ' + this.tab);
 			this.tab = newValue;
+			console.log('New value is ' + this.tab);
 		};
 		this.isSet = function(tabValue) {
 			return this.tab === tabValue;

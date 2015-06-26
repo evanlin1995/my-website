@@ -13,9 +13,11 @@
 }
 
 .navbar-nav > li {
-	margin-right: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
+/* there might be something wrong with this container, small white gap at top */
 #outer-slider-container {
 	display: block;
 	overflow: hidden;
